@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+/*Header style*/
+nav{
+    background-color:white;
+    height: 60px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 5%;
+    
+   
+}
+nav img{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+nav ul{
+    display: inline-flex;
+    margin-left: 50%;
+    margin-bottom: 10px;
+}
+nav ul li{
+    list-style: none;
+    margin-left:10%;
+    font-size: 18px;   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.mashead  img{
+    position: relative;
+    }
+  .box{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  }
+ h1 {
+    text-align: center;
+    margin-top: 10%;
+  }
+  p{
+    text-align: center;
+    margin-left: 10%;
+  }
+  button{
+    margin-left: 45%;
+    border: none;
+    margin-top:5%;
+    padding: 10px 15px;
+    background-color:peru;
+    cursor: pointer;
+  }
+
+  /*About*/
+  #img{
+    top: 20%;
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+  }
+  .contant{
+    width: 80%;
+    height: 90%;
+    margin-left: 800px;
+    bottom: 80%;
+    position: relative; 
+  }
+  .button{
+    padding:10px 15px; 
+    background-color: peru;
+    left: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+ /*Facility style*/    
+ #facility{
+  position: relative;
+}
+#facility img{
+    margin-top: 5%;
+    margin-left: 38%;
+}
+#facility h2{
+    margin-top: 1%;
+    text-align: center;
+    font-size: 30px;
+}
+.row{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.row h3{
+    text-align: center;
+    margin-left:10%;
+}
+.row p{
+    text-align: center;
+}
+.col1{
+display: block;
+float: left;
+}
+.col1 img{
+    margin-bottom: 10px;
+   margin-right:20% ;
+}
+.col2{
+margin-left:5%;
+display: block;
+float: left;
+}
+.col2 img{
+    margin-right:20% ;
+    margin-bottom: 10px;
+ }
+.col3{
+margin-left:5%;
+display: block;
+float: left;
+}
+.col3 img{
+    margin-bottom: 10px;
+    margin-right:20% ;
+ }
+.col4{
+margin-left:5%;
+display: block;    
+float: left;
+}
+.col4 img{
+    margin-bottom: 10px;
+    margin-right: 40px;
+ }
+/*Menu style*/
+ 
+#menu{
+  margin-top: 25%;
+  position: relative;
+  margin-left: 15%;
+}
+#menu .image{
+  margin-top: 4%;
+  margin-left: 28%;
+}
+#menu h2{
+  margin-top: 1%;
+  margin-left: 35%;
+  font-size: 30px;
+}
+#menu .row-1{
+  
+  margin-top: 8%;
+}
+#menu .row-1 h3{
+  text-align: center;
+}
+#menu .row-1 .col-1{
+  display: block;
+  float: left;
+}
+#menu .row-1 .col-2{
+  margin-left: 2%;
+  display: block;
+  float: left;
+}
+#menu .row-1 .col-3{
+  margin-left: 2%;
+  display: block;
+  float: left;
+}
+#menu .row-2{
+  margin-top: 35%;
+
+}
+#menu .row-2 h3{
+  text-align: center;
+}
+#menu .row-2 .col-4{
+  display: block;
+  float: left;
+}
+#menu .row-2 .col-5{
+  margin-left: 2%;
+  display: block;
+  float: left;
+}
+#menu .row-2 .col-6{
+  margin-left: 2%;
+  display: block;
+  float: left;
+}
+/*gallery style*/
+#gallery{
+    position:relative;
+}
+#gallery .img{
+  margin-left: 38%;
+  margin-top: 40%;
+}
+#gallery .img h2{
+  margin-left:12% ;
+  font-size: 35px;
+}
+#gallery .rw1{
+  margin-left: 2%;
+}
+#gallery .co1 img{
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+/**/
+
+#team .img{
+  margin-left: 38%;
+}
+#team h2{
+  margin-top: 1%;
+  margin-left: 13%;
+  font-size: 30px;
+}
+#team { 
+  margin-top: 8%;
+}
+#team .ro1{
+  position: relative;
+  margin-top: 2%;
+}
+#team .cl1{
+  position: absolute;
+  left: 20%;
+}
+#team .cl2{
+  position: absolute;
+  left: 41%;
+}
+#team .cl3{
+  position: absolute;
+  left: 62%;
+}
+#team h3{
+  position: absolute;
+  left: 12%;
+}
+#team .ro2{
+  margin-top: 25%;
+  position: relative;
+}
+#team .cl4{
+  position: absolute;
+  left: 20%;
+}
+#team .cl5{
+  position: absolute;
+  left: 41%;
+}
+#team .cl6{
+  position: absolute;
+  left: 62%;
+}
+/*Contact  style*/
+#contact{
+  position: relative;
+}
+#contact .img-1{
+  margin-top: 50%;
+  margin-left: 38%;
+}
+#contact h2{
+  margin-top: 1%;
+  text-align: center;
+  font-size: 30px;
+}
+.container img{
+  margin-top: 1%;
+}
+.con{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 60%;
+  bottom: 17%;
+  border: 3px solid black;
+  width: 500px;
+  height: 450px;
+}
+.con h3{
+  margin-top: 10px;
+  font-size: x-large;
+  text-align: center;
+}
+form .bx{
+font-size: large;
+margin-left:10%;
+border: 2px solid black;
+margin-top: 20px;
+width: 80%;
+padding: 20px 30px;
+}
+form .btn{
+  margin-left: 28%;
+  margin-top: 6%;
+  text-align: center;
+  background-color:peru;
+  color: white;
+  border: none;
+  font-size: large;
+  padding: 15px 50px;
+}
+/*Footer style*/
+
+footer{ height: 400px;
+    width: 100%; 
+}
+.f-row{
+  margin-left: 10%;
+    display: block;
+    float: left;
+}
+#footer-box{ margin-top: 130px;
+    border: 3px solid black;
+    height: 350px;
+    width: 100% ;
+}
+.footer-col1{display: block;
+    float: left; 
+    text-align: center; 
+    padding: 20px  60px;
+    
+}
+.icon-1{background-image: -moz-radial-gradient();
+    background-color:peru; color: black;
+    height: 50px; width: 50px;
+    border-radius: 50%;
+    padding: 15px 15px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.footer-col2{display: block;
+    float: left;text-align: center;
+    padding: 20px  60px;      
+}
+.icon-2{background-image: -moz-radial-gradient();
+    background-color: peru;
+    color: black;
+    height: 50px; width: 50px;
+    border-radius: 50%;
+    padding: 15px 15px;
+    margin-left: 65px;
+    font-size: 20px;
+
+}
+.footer-col3{display: block;
+    float: left;text-align: center; 
+    padding: 20px  60px;     
+}
+.icon-3{background-image: -moz-radial-gradient();
+    background-color:peru;
+    color: black;
+    height: 50px; width: 50px;
+    border-radius: 50%;
+    padding: 15px 15px;
+    margin-left: 60px;
+    font-size: 20px;
+
+}
+.footer-col4{display: block;
+    float: left;text-align: center;   
+    padding: 20px  60px;
+}
+.icon-4{background-image: -moz-radial-gradient();
+    background-color: peru;
+    color: black;
+    height: 50px; width: 50px;
+    border-radius: 50%;
+    padding: 15px 15px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+hr{
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 250px;
+
+}
+.end{  
+  margin-top: 30px;
+  font-size: 20px;
+    text-align: center;
+}
